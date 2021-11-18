@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.gchfeng.hooks">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+    <meta-data
+        android:name="xposedmodule"
+        android:value="true" />
+    <meta-data
+        android:name="xposeddescription"
+        android:value="Some hooks for private use" />
+    <meta-data
+        android:name="xposedminversion"
+        android:value="53" />
+    </application>
+</manifest>
