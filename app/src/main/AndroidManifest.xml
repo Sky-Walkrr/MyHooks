@@ -9,9 +9,12 @@
         android:value="true" />
     <meta-data
         android:name="xposeddescription"
-        android:value="Some hooks for private use" />
+        android:value="Some hooks for private use:\n1. MIUI 传送门翻译替换为分享（适配版本 2.5.10）；\n2. QQ dialogs 支持 cancelable；" />
     <meta-data
         android:name="xposedminversion"
         android:value="53" />
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scope" />
     </application>
 </manifest>
