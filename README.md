@@ -1,8 +1,6 @@
 # MyHooks
 
---
-
-自用的 Xposed 模块，已适配[LSPosed](https://github.com/LSPosed/LSPosed)
+自用的 Xposed 模块，已适配 [LSPosed](https://github.com/LSPosed/LSPosed)
 
 ## 目前已实现功能：
 
@@ -11,7 +9,7 @@
 
 ## TODOs:
 
-- [] 增加 UI，支持开关；
+- [ ] 增加 UI，支持开关；
 
 
 ## Credits
